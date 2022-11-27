@@ -7,17 +7,31 @@ Painted Conversations was based on Thomas Davis's earlier work on the [Omega pro
 
 ## Installation
 
-### Requirements
+```
+npm i
 
+npm start
+```
 
-To deal with: sox version
-https://github.com/gillesdemey/node-record-lpcm16/issues/58
-https://github.com/chocolatey/choco/issues/2398
+## Requirements
+* Sox
 
-pm2 start ecosystem.config.js --only "api-app,worker-app"
+* chocolatey
 
-how to start ngrok to host it
+* [PM2](https://pm2.keymetrics.io/docs/usage/application-declaration/)- If you’re on Linux, Windows, Mac, or using a Docker container (yes, it supports Docker as well):
 
-write npm scripts
+```npm install pm2 -g```
 
-https://pm2.keymetrics.io/docs/usage/application-declaration/
+```pm2 start ecosystem.config.js --only "api-app,worker-app"```
+
+* node record
+
+## To do
+
+*how to start ngrok to host it
+
+*sox version
+
+*https://github.com/gillesdemey/node-record-lpcm16/issues/58
+
+*https://github.com/chocolatey/choco/issues/2398
