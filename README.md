@@ -1,4 +1,4 @@
-# ReadMe
+# Animated Discussion ReadMe
 
 Animated Discussion listens to your conversations and paints them in real time. It can also listen to podcasts, join you in a clubhouse room, or paint your narrated story. It is a project by [Thomas Davis](http://github.com/thomasdavis) and [Lisa Watts](http://github.com/davincidreams). The AI Painter is an open source project and we have opted to use open source models and an MIT license. We hope that this project will inspire others to create their own visions.
 ## About
